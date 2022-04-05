@@ -4,6 +4,10 @@ Simple script to transform iconfont file(.ttf) to a js mapping moudle . The js m
 
 # Requirement
 
+python version
+
+> V3
+
 Require python package `fonttools`.
 
 > pip install fonttools
@@ -11,7 +15,7 @@ Require python package `fonttools`.
 If on Mac OS El Capitan and later got the error:
 
 ```
-Could not install packages due to an EnvironmentError: [Errno 1] Operation not permitted: '/System/Library/Frameworks/Python.framework/Versions/2.7/share'
+Could not install packages due to an EnvironmentError: [Errno 1] Operation not permitted: '/System/Library/Frameworks/Python.framework/Versions...'
 ```
 
 try to use:
